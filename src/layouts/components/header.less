@@ -1,0 +1,69 @@
+@import '../../themes/default.less';
+
+.logo{
+  width: 40px;
+  height: 40px;
+  display: inline-block
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #ffffff;
+  box-shadow: 4px 0px 40px 0 rgba(0, 0, 0, 0.05);
+  .cloopaseIcon{
+    font-size: 26px;
+    margin-left: 170px;
+  }
+  .userImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .leftBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .word{
+    margin-left: 10px;
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    color: #1890ff;
+    white-space: nowrap;
+    margin-bottom: 0;
+    background-image: -webkit-gradient(linear, 37.219838% 34.532506%, 36.425669% 93.178216%, from(#29cdff), to(#0a60ff), color-stop(0.37, #148eff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  }
+  .infoBox{
+    position: relative;
+    margin-right: 20px;
+    .icon{
+      font-size: 25px;
+    }
+    .count{
+      background: #f5222d;
+      color: #ffffff;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 20px;
+      left: 15px;
+      top: -5px;
+    }
+  }
+}
